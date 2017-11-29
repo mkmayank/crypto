@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!--
+    https://codepen.io/MarcoGuglielmelli/pen/eoLqJ?limit=all&page=5&q=input
+    https://github.com/allienworks/cryptocoins/
+-->
+<html>
+    <head>
+        <title>Crypto</title>
+
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="webfont/cryptocoins.css">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+        <script src="jquery/jquery-3.2.1.min.js"></script>
+        <script src="index.js"></script>
+    </head>
+
+<body onload="onload()">
+
+    <div class="row">
+        <div class="box">
+            <div class="container-2">
+                <span class="icon"><i class="fa fa-inr" title="INR"></i></span>
+                <input type="number" id="inr_cost" placeholder="Buy price..." />
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="container-2">
+                <span class="icon"><i class="fa fa-usd" title="USD"></i></span>
+                <input type="number" id="usd_cost" placeholder="Buy price..." />
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="container-2">
+                <span class="icon"><i class="fa fa-exchange" title="USD_INR"></i></span>
+                <input type="number" id="usd_inr_exchange" placeholder="USD to INR value" />
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="box">
+            <div class="container-2">
+                <span class="icon"><i class="cc BTC" title="BTC"></i></span>
+                <input type="number" id="btc_amount" placeholder="BTC..." />
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="container-2">
+                <span class="icon"><i class="cc ETH" title="ETH"></i></span>
+                <input type="number" id="eth_amount" placeholder="ETH..." />
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="container-2">
+                <span class="icon"><i class="cc LTC" title="LTC"></i></span>
+                <input type="number" id="ltc_amount" placeholder="LTC..." />
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="box">
+            <div class="container-2">
+                <span class="icon"><i class="cc BTC" title="BTC"></i></span>
+                <input type="number" id="btc_sell_price" placeholder="BTC sell price..." />
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="container-2">
+                <span class="icon"><i class="cc ETH" title="ETH"></i></span>
+                <input type="number" id="eth_sell_price" placeholder="ETH sell price..." />
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="container-2">
+                <span class="icon"><i class="cc LTC" title="LTC"></i></span>
+                <input type="number" id="ltc_sell_price" placeholder="LTC sell price..." />
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="box">
+            <div class="container-2">
+                <span class="icon picon"><i class="fa fa-money" title="BTC"></i></span>
+                <a id="btc_profit" class="profit_p">BTC profit...</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="container-2">
+                <span class="icon picon"><i class="fa fa-money" title="ETH"></i></span>
+                <a id="eth_profit" class="profit_p">ETH profit...</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="container-2">
+                <span class="icon picon"><i class="fa fa-money" title="LTC"></i></span>
+                <a id="ltc_profit" class="profit_p">LTC profit...</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

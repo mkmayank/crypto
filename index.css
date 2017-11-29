@@ -1,0 +1,96 @@
+body{
+  background: #343d46;
+}
+
+.box{
+  margin: 12px;
+  height: 50px;
+  display:inline-block;
+}
+
+.container-2{
+  padding: 20px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+
+.container-2 *{
+    padding: 12px;
+}
+
+.container-2 input[type="number"]{
+  width: 300px;
+  background: #2b303b;
+  border: none;
+  font-size: 22pt;
+  float: left;
+  color: #262626;
+  padding-left: 64px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.container-2 input[type="number"]::-webkit-input-placeholder {
+   color: #65737e;
+}
+
+.container-2 input[type="number"]:-moz-placeholder { /* Firefox 18- */
+   color: #65737e;
+}
+
+.container-2 input[type="number"]::-moz-placeholder {  /* Firefox 19+ */
+   color: #65737e;
+}
+
+.container-2 input[type="number"]:-ms-input-placeholder {
+   color: #65737e;
+}
+
+.container-2 .icon{
+  position: absolute;
+  z-index: 1;
+  color: #4f5b66;
+  font-size: 22pt;
+}
+
+.container-2 input[type="number"]:focus, .container-2 input[type="number"]:active{
+  outline:none;
+}
+
+.container-2:hover .icon{
+  color: #93a2ad;
+}
+
+.container-2:hover .picon{
+  color: #434d56;
+}
+
+.picon{
+    margin-left: 0px;
+}
+
+.profit_p{
+    width: 300px;
+    border: none;
+    font-size: 24pt;
+    float: left;
+    color: #65737e;
+    padding-left: 64px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.fa{
+    display: inline !important;
+}
